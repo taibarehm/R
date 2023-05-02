@@ -1,0 +1,12 @@
+install.packages('palmerpenguins')
+library('palmerpenguins')
+remove.packages("ggplot2")
+//install.packages("ggplot2", dependencies=TRUE)
+library("reshape2",lib.loc="/path/to/R-packages/")
+#install.packages('ggplot2', repos='http://cran.us.r-project.org')
+install.packages(c('reshape2','scales'))
+install.packages("ggplot2")
+library("ggplot2")
+ggplot(data=penguins,aes(x=filpper_length_mm,y=body_mass_g))
+ggplot()
+
